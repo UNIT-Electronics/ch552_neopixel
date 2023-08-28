@@ -28,7 +28,7 @@ Aquí hay una guía general sobre cómo podrías conectar el chip CH552 a Neopix
 
 Utiliza el software de programación compatible con el chip CH552 para enviar los comandos adecuados a los Neopixels. 
 
-Código Ejemplo: [Neopixel_lite]()
+Código Ejemplo: [Neopixel_lite](https://github.com/UNIT-Electronics/ch552_neopixel/tree/main/software/neopixel_lite)
 
 Para comprobar el funcionamiento de nuestro ejemplo, recomendamos uso del Arduino IDE para cargar los archivos ([Guia_config_ch552](https://github.com/UNIT-Electronics/CH552-en-Arduino/)).
 
