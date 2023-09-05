@@ -1,6 +1,6 @@
 # CH552: "Conexión a Neopixel WS2812"
 
-El chip CH552 es un microcontrolador USB con capacidades de E/S versátiles en esta ocasión control de  tiras de LED RGB programables individualmente conocidas como Neopixels. Para conectar el chip CH552 a Neopixels, necesitarás entender los conceptos básicos de comunicación y control de Neopixels a través de protocolos como WS2812.
+El chip CH552 es un microcontrolador USB con capacidades de E/S versátiles en esta ocasión control de  tiras de LED RGB programables individualmente conocidas como Neopixels.  Hemos adaptado el código original de [Stefan Wagner](https://github.com/wagiminator) con el objetivo de lograr una comunicación eficiente y fluida en el chip ch552.  Para conectar el chip CH552 a Neopixels, necesitarás entender los conceptos básicos de comunicación y control de Neopixels a través de protocolos como WS2812.
 
 Los Neopixels utilizan el protocolo WS2812, que implica enviar una serie de bits que representan los valores de color para cada LED en la cadena. Se debe generar la secuencia de bits de acuerdo con las especificaciones del protocolo.
 ## Configuración Básica
@@ -70,13 +70,16 @@ Puedes cambiar la configuración de velocidad y número Neopixels, así como niv
 #define level 64 // Ilumination level 0 to 255
 
 ```
-## Referencias
+# Referencias
 
 Para mayor información, estos son algunos proyectos que usan la configuración del ch55x.
 
 * [CH55xduino](https://github.com/DeqingSun/ch55xduino)
 
 * [CH552-USB-OLED](https://github.com/wagiminator/CH552-USB-OLED)
+
+## Proyecto original
+Para acceder a información detallada sobre el proyecto mencionado, te invitamos a consultar el repositorio específico del autor:
 
 * [CH552E MacroPad mini](https://github.com/wagiminator/CH552-Macropad-mini)
 
